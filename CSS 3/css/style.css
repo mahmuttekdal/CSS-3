@@ -1,0 +1,205 @@
+.genel {
+  text-align: center; /*Genel sınıf ile sayfayı hizalama. */
+  margin: 0;
+
+}
+.picheaderli { /*Profilimin köşelerini oval şekilde daraltma.*/
+  border-radius: 15px;
+}
+
+.header .sol { /*About ve Store linkleri için header left kısmı.*/
+ float: left;
+}
+.sol li a { /*Yazı rengi ve değişen liste özellikleri.*/
+  list-style: none;
+  text-decoration: none;
+  color: #9aa0a6;
+}
+
+.header li { /*Header right kısmı için stiller.*/
+  list-style-type: none;
+  margin: 10px;
+  overflow: hidden;
+  margin-right: 16px;
+  font-family: arial,sans-serif;
+  font-size: 13px;
+  float: right;
+  
+}
+
+.headerli a { /*a etiketi bulunan ögeler için uygula.*/
+  display: block;
+  color:#9aa0a6;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+}
+
+.headerli a:hover { /*Mause ile belirteçli kullanım.*/
+  text-decoration: underline;
+}
+
+.google { /*Logo için kullanılan stil.*/
+  text-align: center;
+  margin: 100px;
+  margin-right: 15px;
+}
+
+.search-area {
+  background: #fff;
+  display: flex;
+  border: 1px solid #dfe1e5;
+  box-shadow:  1px 1px 1px whitesmoke; /*Gölgeleme.*/
+  z-index: 3;
+  height: 34px;
+  margin: auto;
+  margin-top: -77px;
+  width: 582px;
+  border-radius: 20px; /*Kenarlıkları oval yap.*/
+}
+
+.search-area:hover {
+box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+}
+
+.search {
+  flex: 1;
+  display: flex;
+  padding: 5px 8px 0 16px;
+  padding-left: 14px;
+  background-color: #fff; /* Arka plan rengi uyguladı.*/
+  border-radius: 10px;
+
+}
+
+.search-img {
+  display: flex;
+  align-items: center;
+  padding-right: 13px;
+  margin-top: -5px;
+}
+
+.search-img span {
+  color: #9aa0a6;
+  height: 20px;
+  width: 20px;
+  margin-top: 0px;
+  display: inline-block;
+  fill: currentColor;
+  line-height: 24px;
+  position: relative;
+}
+  
+
+.input-enter {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.input-area {
+  color: transparent;
+  flex: 100%;
+  white-space: pre;
+  font: 16px arial, sans-serif;
+  line-height: 34px;
+  height: 34px !important;
+  display: block;
+}
+
+.input {
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.87);
+  word-wrap: break-word;
+  outline: none;
+  display: flex;
+  flex: 100%;
+  margin-top: -68px;
+  font: 16px arial, sans-serif;
+  line-height: 34px;
+  height: 34px !important;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  text-align: start;
+  appearance: textfield;
+  cursor: text;
+  width: 480px; /*Arama çubuğu boyutu. */
+  border-style: none; 
+}
+.buttons {
+  text-align: center;
+  margin-top : 25px;
+}
+
+.googlesearch { /*Butonları stilleme*/
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  min-width: 54px;
+  cursor: pointer;
+  user-select: none;
+  margin-right: 10px;
+  font-family: Arial;
+  font-size: 14px;
+  height: 36px;
+  border: none;
+  box-shadow: 2px 2px 3px whitesmoke;
+  color: #5f6368;
+}
+ 
+
+.feelinglucky { /*Butonu stilleme.*/
+  padding: 0 16px;
+  line-height: 27px;
+  min-width: 54px;
+  cursor: pointer;
+  user-select: none;
+  margin-left: 10px;
+  font-family: Arial;
+  font-size: 14px;
+  height: 36px;
+  border: none;
+  box-shadow: 2px 2px 3px whitesmoke;
+  color: #5f6368;
+ 
+}
+
+.footer {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #dfe1e5;
+  border-top: 1px solid #dadce0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-left: -8px;
+  line-height: 10px;
+  background: #f2f2f2; /*footer arka planı.*/
+  list-style: none;
+}
+
+.footerli {
+  float: left;
+}
+
+.footerli a {
+  display: block;
+  color: #70757a;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin-left: 14px;
+  margin-right: -20px;
+}
+
+.footerli a:hover {
+  text-decoration: underline;
+}
